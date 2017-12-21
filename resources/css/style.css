@@ -39,3 +39,28 @@ nav {
   color: #399bd1 !important;
   /* https://stackoverflow.com/questions/16557637/how-to-change-active-link-color-in-bootstrap-css */
 }
+
+/****************************** Carousel Section ******************************/
+
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.jumbotron-bike h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 7.1rem;
+}
+
+.jumbotron p {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
