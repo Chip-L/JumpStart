@@ -78,10 +78,7 @@ nav {
 
 /************************** Featured Product Section **************************/
 
-#featured-product {
-    padding-bottom: 5.85rem;
-}
-
+/* The oinly reason this isn't on the main h2 is because the specs don't specify it everywhere */
 #featured-product h2 {
   padding-bottom: 20px;
 }
@@ -103,4 +100,10 @@ nav {
 li {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
+}
+
+/****************************** Project Section  ******************************/
+
+.project {
+  padding-bottom: 5.85rem;
 }
