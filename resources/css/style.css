@@ -84,10 +84,6 @@ nav {
   color: white;
 }
 
-.jumbotron-bike {
-  background-image: url("../images/jumbotron-bike.jpg");
-}
-
 .ad {
   width: 51.3rem;
   padding: 11.85rem 0;
@@ -99,6 +95,10 @@ nav {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
 }
 
 /************************** Featured Product Section **************************/
@@ -131,4 +131,21 @@ li {
 
 .project {
   padding-bottom: 5.85rem;
+}
+
+/******************************** Help Section ********************************/
+
+#help {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#help p {
+  width: 42rem;
+  margin: 1.4rem auto 0;
 }
