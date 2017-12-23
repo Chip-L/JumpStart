@@ -35,13 +35,33 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 426px) {
+.btn {
+  width: 11.4rem;
+  margin-top: 2.8rem;
+  padding: 1.3rem 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
   }
 
   .mobile-show {
     display: inherit;
+  }
+
+  h1 {
+    font-size: 5.7rem;
   }
 }
 
@@ -68,7 +88,12 @@ nav {
   background-image: url("../images/jumbotron-bike.jpg");
 }
 
-.jumbotron p {
+.ad {
+  width: 51.3rem;
+  padding: 11.85rem 0;
+}
+
+.ad p {
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
