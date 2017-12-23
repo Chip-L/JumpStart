@@ -17,7 +17,7 @@ $(document).ready( function () {
       $topNavbar.animate({
         top: 0
       }, 150);
-      scrollDist = $scrollTop;      
+      scrollDist = $scrollTop;
     };
 
   });
@@ -27,10 +27,10 @@ function initCarousel($element) {
   $element.slick({
     slidesToScroll: 1,
     autoplay: true,
-    speed: 4000,
+    autoplaySpeed: 4000,
     arrows: false,
     draggable: false,
-    pauseOnFocus: false,
+    // pauseOnFocus: false,
     pauseOnHover: false,
   });
 }
